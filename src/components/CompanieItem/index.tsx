@@ -27,8 +27,8 @@ export function CompanieItem() {
     return (
       <div className="flex flex-row items-center justify-between py-[12px] px-[20px] h-[100px] w-full bg-[#F3F3F3]">
         <div className="flex flex-row items-center space-x-[20px]">
-          <div className="h-full">
-            <img className="h-full" src="/image.png" />
+          <div>
+            <img className="h-[60px] w-[60px]" src="/image.png" />
           </div>
           <div className="flex flex-col">
             <span className='text-[18px] font-medium'>Hoffby</span>
