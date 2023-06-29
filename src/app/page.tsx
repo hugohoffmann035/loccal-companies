@@ -11,7 +11,7 @@ function Base(){
   const { isOpenModal } = useModal()
 
   return (
-    <div>
+    <div className='flex flex-col w-full items-center'>
       <Header />
       <CompanieList />
       <ModalContactPhone is_open={isOpenModal == 'contact_phone'} />
