@@ -24,7 +24,7 @@ export function ModalCuston({
 
     return (
         <div className={`fixed z-[999] top-0 left-0 right-0 bottom-0 bg-modal-overlay flex flex-col items-center justify-center ${is_open ? 'block': 'hidden'}`}>
-            <div className="bg-white rounded-[5px] w-[500px] min-h-[300px] relative flex flex-col">
+            <div className="bg-white rounded-[5px] w-[90%] sm:w-[80%] md:w-[50%] xl:w-[500px] min-h-[300px] relative flex flex-col">
                 <div className="flex flex-col w-full items-center mt-[15px]">
                     <h1 className="text-black text-[22px]">Hoffby</h1>
                 </div>

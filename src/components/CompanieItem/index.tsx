@@ -34,14 +34,14 @@ export function CompanieItem() {
             <span className='text-[18px] font-medium'>Hoffby</span>
             <span className='text-[14px] font-normal'>44.532.586/0001-00</span>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col hidden xl:flex">
             <span className='text-[14px] font-normal'>Rua F-7 Qd.11 Lt.10</span>
             <span className='text-[14px] font-normal'>Setor redentor</span>
             <span className='text-[14px] font-normal'>Jandaia (GO)</span>
           </div>  
         </div>
         <div className="flex flex-row items-center space-x-[20px]">
-          <div className='px-[10px] bg-[#EDA876] rounded-full text-white py-[2px]'>
+          <div className='px-[10px] bg-[#EDA876] rounded-full text-white py-[2px] hidden xl:flex'>
             <span className='text-[14px] font-normal'>Tecnologia da informação</span>
           </div>
           <div className='cursor-pointer' onClick={handleOpenModalCompanyDetails}>
