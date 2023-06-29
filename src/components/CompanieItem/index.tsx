@@ -28,7 +28,7 @@ export function CompanieItem() {
       <div className="flex flex-row items-center justify-between py-[12px] px-[20px] h-[100px] w-full bg-[#F3F3F3]">
         <div className="flex flex-row items-center space-x-[20px]">
           <div>
-            <img className="h-[60px] w-[60px]" src="/image.png" />
+            <img className="h-[60px] w-[60px] min-h-[60px] min-w-[60px]" src="/image.png" />
           </div>
           <div className="flex flex-col">
             <span className='text-[18px] font-medium'>Hoffby</span>
@@ -40,7 +40,7 @@ export function CompanieItem() {
             <span className='text-[14px] font-normal'>Jandaia (GO)</span>
           </div>  
         </div>
-        <div className="flex flex-row items-center space-x-[20px]">
+        <div className="flex flex-row items-center space-x-[15px]">
           <div className='px-[10px] bg-[#EDA876] rounded-full text-white py-[2px] hidden xl:flex'>
             <span className='text-[14px] font-normal'>Tecnologia da informação</span>
           </div>
