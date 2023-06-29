@@ -18,7 +18,7 @@ export function ModalCompanyDetails({ is_open }: ModalContactPhoneProps) {
             is_open={is_open}
             onClose={handleCloseModal}
         >
-            <div>
+            <div className='flex flex-col space-y-[30px]'>
                 <div className='flex flex-col items-center space-y-3'>
                     <div>
                         <h2 className='text-black text-[18px]'>Mais informações sobre a empresa</h2>
